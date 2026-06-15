@@ -124,16 +124,6 @@ list_vulnerabilities(module_or_package_path: str)
 
 All requests are executed using httpx with a 15-second timeout.
 
-## Example Usage
-
-```
-await search_results("uuid")
-
-await info_about_package("github.com/google/go-cmp/cmp")
-
-await list_symbols_at_package_path("github.com/google/go-cmp/cmp")
-```
-
 ## Project Structure
 
 ```
