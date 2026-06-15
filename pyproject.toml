@@ -1,0 +1,9 @@
+[project]
+name = "pkgsite-mcp"
+version = "0.1.0"
+description = "MCP Server for pkg.go.dev package index"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "fastmcp>=3.4.2",
+]
