@@ -14,8 +14,6 @@ pkgsite-mcp wraps the official pkg.go.dev/v1beta API and exposes it as MCP tools
 
 - Search Go packages across the Go ecosystem
 - Retrieve full module and package metadata
-- List exported and internal symbols (functions, structs, interfaces, constants, variables)
-- Discover reverse dependencies (imported-by graph)
 - Check security vulnerabilities in modules and packages
 - List all packages contained within a module
 
